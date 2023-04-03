@@ -1,4 +1,13 @@
 {
   "extends": ["config:base"],
-  "ignorePaths": []
+  "ignorePaths": [],
+  "packageRules": [    {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/webpack",
+        "https://github.com/callstack/linaria"
+      ],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "groupSlug": "webpack",
+      "groupName": "webpack packages"
+    }]
 }
