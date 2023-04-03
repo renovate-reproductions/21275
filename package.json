@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "name": "renovaterepro",
+  "packageManager": "yarn@3.5.0"
+}
