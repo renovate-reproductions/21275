@@ -10,5 +10,5 @@
       "groupSlug": "webpack",
       "groupName": "webpack packages"
     }],
-  prHourlyLimit: 0
+  "prHourlyLimit": 0
 }
